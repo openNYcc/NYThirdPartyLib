@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15BEC734CBAF6ACD7434429A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		15BEC734CBAF6ACD7434429A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		174988426693E2C1767A8B8F /* Pods-NYThirdPartyLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYThirdPartyLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NYThirdPartyLib_Tests/Pods-NYThirdPartyLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B7920CB1B50C00799C522B3 /* Pods-NYThirdPartyLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYThirdPartyLib_Example.release.xcconfig"; path = "Target Support Files/Pods-NYThirdPartyLib_Example/Pods-NYThirdPartyLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NYThirdPartyLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYThirdPartyLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,11 +59,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6B942AB7CBAC4A48D4BC3D3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6B942AB7CBAC4A48D4BC3D3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DD3857744E589AE0D9DE5EF /* Pods_NYThirdPartyLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYThirdPartyLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		955359E8A50BBE8538490B3A /* NYThirdPartyLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NYThirdPartyLib.podspec; path = ../NYThirdPartyLib.podspec; sourceTree = "<group>"; };
+		955359E8A50BBE8538490B3A /* NYThirdPartyLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NYThirdPartyLib.podspec; path = ../NYThirdPartyLib.podspec; sourceTree = "<group>"; };
 		991D84A05C26144247A77DBB /* Pods-NYThirdPartyLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYThirdPartyLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-NYThirdPartyLib_Example/Pods-NYThirdPartyLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC7AC4BCF3D44B856894E03A /* Pods_NYThirdPartyLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYThirdPartyLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D434291864CC937F27D15761 /* Pods-NYThirdPartyLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYThirdPartyLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-NYThirdPartyLib_Tests/Pods-NYThirdPartyLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				174988426693E2C1767A8B8F /* Pods-NYThirdPartyLib_Tests.debug.xcconfig */,
 				D434291864CC937F27D15761 /* Pods-NYThirdPartyLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "455858242@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ETNJG449T3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 991D84A05C26144247A77DBB /* Pods-NYThirdPartyLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ETNJG449T3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NYThirdPartyLib/NYThirdPartyLib-Prefix.pch";
 				INFOPLIST_FILE = "NYThirdPartyLib/NYThirdPartyLib-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 3B7920CB1B50C00799C522B3 /* Pods-NYThirdPartyLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ETNJG449T3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NYThirdPartyLib/NYThirdPartyLib-Prefix.pch";
 				INFOPLIST_FILE = "NYThirdPartyLib/NYThirdPartyLib-Info.plist";
