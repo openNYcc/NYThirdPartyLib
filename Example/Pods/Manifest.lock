@@ -1,0 +1,16 @@
+PODS:
+  - NYThirdPartyLib (0.1.0)
+
+DEPENDENCIES:
+  - NYThirdPartyLib (from `../`)
+
+EXTERNAL SOURCES:
+  NYThirdPartyLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NYThirdPartyLib: c53df0ada4f06bbcdd8517e9f251d44646553655
+
+PODFILE CHECKSUM: d9b32d94ba3b4e3ab876924faba6da593829e5df
+
+COCOAPODS: 1.10.2

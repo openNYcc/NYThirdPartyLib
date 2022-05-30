@@ -1,0 +1,6 @@
+framework module NYThirdPartyLib {
+  umbrella header "NYThirdPartyLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

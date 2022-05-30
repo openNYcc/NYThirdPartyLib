@@ -1,0 +1,22 @@
+{
+  "name": "NYThirdPartyLib",
+  "version": "0.1.0",
+  "summary": "A short description of NYThirdPartyLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/455858242@qq.com/NYThirdPartyLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "455858242@qq.com": "455858242@qq.ccom"
+  },
+  "source": {
+    "git": "https://github.com/455858242@qq.com/NYThirdPartyLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "NYThirdPartyLib/Classes/**/*"
+}
