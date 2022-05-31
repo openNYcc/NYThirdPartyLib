@@ -229,6 +229,7 @@
 		F45085BB2846003D00764ACC /* PublicNotificationName.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085B82846003D00764ACC /* PublicNotificationName.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F45085BC2846003D00764ACC /* PublicMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085B92846003D00764ACC /* PublicMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F45085BD2846003D00764ACC /* PublicEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085BA2846003D00764ACC /* PublicEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45085BF2846086800764ACC /* NYPubLibImport.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085BE2846086800764ACC /* NYPubLibImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6FCBFE55B35A833C54CE4C3B13867D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -495,6 +496,7 @@
 		F45085B82846003D00764ACC /* PublicNotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicNotificationName.h; path = NYThirdPartyLib/Classes/PublicNotificationName.h; sourceTree = "<group>"; };
 		F45085B92846003D00764ACC /* PublicMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicMacro.h; path = NYThirdPartyLib/Classes/PublicMacro.h; sourceTree = "<group>"; };
 		F45085BA2846003D00764ACC /* PublicEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicEnum.h; path = NYThirdPartyLib/Classes/PublicEnum.h; sourceTree = "<group>"; };
+		F45085BE2846086800764ACC /* NYPubLibImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYPubLibImport.h; path = NYThirdPartyLib/Classes/NYPubLibImport.h; sourceTree = "<group>"; };
 		FCF5E50573C08CF7B51E71904F043D2A /* Pods-NYThirdPartyLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYThirdPartyLib_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -563,6 +565,7 @@
 		5ACB909D8A9E1CBBB71C4A26C5A96435 /* NYThirdPartyLib */ = {
 			isa = PBXGroup;
 			children = (
+				F45085BE2846086800764ACC /* NYPubLibImport.h */,
 				F45085BA2846003D00764ACC /* PublicEnum.h */,
 				F45085B92846003D00764ACC /* PublicMacro.h */,
 				F45085B82846003D00764ACC /* PublicNotificationName.h */,
@@ -1058,6 +1061,7 @@
 				F450835A2844C55B00764ACC /* NSNumber+YYAdd.h in Headers */,
 				F450833F2844C55B00764ACC /* UIBezierPath+YYAdd.h in Headers */,
 				F45083852844C55B00764ACC /* FMResultSet.h in Headers */,
+				F45085BF2846086800764ACC /* NYPubLibImport.h in Headers */,
 				F45082CE2844C55A00764ACC /* GTMBase64.h in Headers */,
 				F45082EB2844C55A00764ACC /* YYFrameImage.h in Headers */,
 				F45083242844C55A00764ACC /* YYTextUtilities.h in Headers */,
