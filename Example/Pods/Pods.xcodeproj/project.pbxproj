@@ -226,9 +226,9 @@
 		F450838E2844C55C00764ACC /* AESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F45082BB2844C55900764ACC /* AESUtil.m */; };
 		F450838F2844C55C00764ACC /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = F45082BC2844C55900764ACC /* NSData+AES.m */; };
 		F45083902844C55C00764ACC /* AESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F45082BD2844C55900764ACC /* AESUtil.h */; };
-		F45083A82845BD1900764ACC /* PublicMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F45083A52845BD1900764ACC /* PublicMacro.h */; };
-		F45083A92845BD1900764ACC /* PublicEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = F45083A62845BD1900764ACC /* PublicEnum.h */; };
-		F45083AA2845BD1900764ACC /* PublicNotificationName.h in Headers */ = {isa = PBXBuildFile; fileRef = F45083A72845BD1900764ACC /* PublicNotificationName.h */; };
+		F45085BB2846003D00764ACC /* PublicNotificationName.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085B82846003D00764ACC /* PublicNotificationName.h */; };
+		F45085BC2846003D00764ACC /* PublicMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085B92846003D00764ACC /* PublicMacro.h */; };
+		F45085BD2846003D00764ACC /* PublicEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085BA2846003D00764ACC /* PublicEnum.h */; };
 		F6FCBFE55B35A833C54CE4C3B13867D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -492,9 +492,9 @@
 		F45082BB2844C55900764ACC /* AESUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESUtil.m; sourceTree = "<group>"; };
 		F45082BC2844C55900764ACC /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
 		F45082BD2844C55900764ACC /* AESUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESUtil.h; sourceTree = "<group>"; };
-		F45083A52845BD1900764ACC /* PublicMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMacro.h; sourceTree = "<group>"; };
-		F45083A62845BD1900764ACC /* PublicEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicEnum.h; sourceTree = "<group>"; };
-		F45083A72845BD1900764ACC /* PublicNotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicNotificationName.h; sourceTree = "<group>"; };
+		F45085B82846003D00764ACC /* PublicNotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicNotificationName.h; path = NYThirdPartyLib/Classes/PublicNotificationName.h; sourceTree = "<group>"; };
+		F45085B92846003D00764ACC /* PublicMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicMacro.h; path = NYThirdPartyLib/Classes/PublicMacro.h; sourceTree = "<group>"; };
+		F45085BA2846003D00764ACC /* PublicEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicEnum.h; path = NYThirdPartyLib/Classes/PublicEnum.h; sourceTree = "<group>"; };
 		FCF5E50573C08CF7B51E71904F043D2A /* Pods-NYThirdPartyLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYThirdPartyLib_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -563,9 +563,9 @@
 		5ACB909D8A9E1CBBB71C4A26C5A96435 /* NYThirdPartyLib */ = {
 			isa = PBXGroup;
 			children = (
-				F45083A62845BD1900764ACC /* PublicEnum.h */,
-				F45083A52845BD1900764ACC /* PublicMacro.h */,
-				F45083A72845BD1900764ACC /* PublicNotificationName.h */,
+				F45085BA2846003D00764ACC /* PublicEnum.h */,
+				F45085B92846003D00764ACC /* PublicMacro.h */,
+				F45085B82846003D00764ACC /* PublicNotificationName.h */,
 				F45081E52844C55900764ACC /* ARC */,
 				F45081D72844C55900764ACC /* Json */,
 				4280838DC90C0E6651B17A3B8DEB9B79 /* Pod */,
@@ -1053,6 +1053,7 @@
 				F45082F92844C55A00764ACC /* _YYWebImageSetter.h in Headers */,
 				F45082F22844C55A00764ACC /* YYWebImageManager.h in Headers */,
 				F45083272844C55A00764ACC /* NSAttributedString+YYText.h in Headers */,
+				F45085BC2846003D00764ACC /* PublicMacro.h in Headers */,
 				F45083792844C55B00764ACC /* YYThreadSafeDictionary.h in Headers */,
 				F450835A2844C55B00764ACC /* NSNumber+YYAdd.h in Headers */,
 				F450833F2844C55B00764ACC /* UIBezierPath+YYAdd.h in Headers */,
@@ -1066,7 +1067,6 @@
 				F45083172844C55A00764ACC /* YYTextInput.h in Headers */,
 				F45083542844C55B00764ACC /* NSObject+YYAddForKVO.h in Headers */,
 				F45083892844C55B00764ACC /* FMDatabaseQueue.h in Headers */,
-				F45083A92845BD1900764ACC /* PublicEnum.h in Headers */,
 				F450834D2844C55B00764ACC /* NSTimer+YYAdd.h in Headers */,
 				F45082F62844C55A00764ACC /* UIImageView+YYWebImage.h in Headers */,
 				F450831B2844C55A00764ACC /* YYTextAttribute.h in Headers */,
@@ -1077,6 +1077,7 @@
 				F45082F72844C55A00764ACC /* CALayer+YYWebImage.h in Headers */,
 				F45083252844C55A00764ACC /* YYTextRunDelegate.h in Headers */,
 				F45082ED2844C55A00764ACC /* YYWebImageOperation.h in Headers */,
+				F45085BD2846003D00764ACC /* PublicEnum.h in Headers */,
 				F45082F52844C55A00764ACC /* UIButton+YYWebImage.h in Headers */,
 				F45082C02844C55900764ACC /* SBJsonWriter.h in Headers */,
 				F45083762844C55B00764ACC /* YYTimer.h in Headers */,
@@ -1090,7 +1091,6 @@
 				F450830B2844C55A00764ACC /* YYTextKeyboardManager.h in Headers */,
 				F450831A2844C55A00764ACC /* YYTextView.h in Headers */,
 				F450838D2844C55C00764ACC /* NSData+AES.h in Headers */,
-				F45083A82845BD1900764ACC /* PublicMacro.h in Headers */,
 				F45083012844C55A00764ACC /* YYClassInfo.h in Headers */,
 				F45083822844C55B00764ACC /* YYSentinel.h in Headers */,
 				F45083052844C55A00764ACC /* YYKit.h in Headers */,
@@ -1104,6 +1104,7 @@
 				F450833A2844C55B00764ACC /* UIFont+YYAdd.h in Headers */,
 				F45083832844C55B00764ACC /* FMDatabase.h in Headers */,
 				F45083152844C55A00764ACC /* YYTextContainerView.h in Headers */,
+				F45085BB2846003D00764ACC /* PublicNotificationName.h in Headers */,
 				F45082C82844C55900764ACC /* SBJsonParser.h in Headers */,
 				F45082D92844C55A00764ACC /* HIAlert.h in Headers */,
 				F45083782844C55B00764ACC /* YYWeakProxy.h in Headers */,
@@ -1140,7 +1141,6 @@
 				F45082E82844C55A00764ACC /* YYImage.h in Headers */,
 				D3BA7F9A8CC554BDB5B6CEF144A41A88 /* NYThirdPartyLib-umbrella.h in Headers */,
 				F45082CC2844C55A00764ACC /* RSAUtil.h in Headers */,
-				F45083AA2845BD1900764ACC /* PublicNotificationName.h in Headers */,
 				F450838A2844C55C00764ACC /* FMDatabaseAdditions.h in Headers */,
 				F45083642844C55B00764ACC /* NSThread+YYAdd.h in Headers */,
 				F45083222844C55A00764ACC /* YYTextRubyAnnotation.h in Headers */,
