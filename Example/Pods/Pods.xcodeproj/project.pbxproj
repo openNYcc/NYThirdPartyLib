@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		039A7AE459AC38A89FAFD535C6B8CA84 /* Pods-NYThirdPartyLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF5E50573C08CF7B51E71904F043D2A /* Pods-NYThirdPartyLib_Example-dummy.m */; };
-		06CEB8E1BA9B139A458BBB9718162514 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DC383ADC298960D94E2F88B76ED73A0E /* ReplaceMe.m */; };
 		323098D2999D7E0C9EF91C67BB5E1A79 /* NYThirdPartyLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A4CAB4D984E85E3B4B10AB8CA67FFF /* NYThirdPartyLib-dummy.m */; };
 		39F5D9D399325ED199A79CFD45AC5F8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3B29350E5E9CCA288093A881740268B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -227,6 +226,9 @@
 		F450838E2844C55C00764ACC /* AESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F45082BB2844C55900764ACC /* AESUtil.m */; };
 		F450838F2844C55C00764ACC /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = F45082BC2844C55900764ACC /* NSData+AES.m */; };
 		F45083902844C55C00764ACC /* AESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F45082BD2844C55900764ACC /* AESUtil.h */; };
+		F45083A82845BD1900764ACC /* PublicMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F45083A52845BD1900764ACC /* PublicMacro.h */; };
+		F45083A92845BD1900764ACC /* PublicEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = F45083A62845BD1900764ACC /* PublicEnum.h */; };
+		F45083AA2845BD1900764ACC /* PublicNotificationName.h in Headers */ = {isa = PBXBuildFile; fileRef = F45083A72845BD1900764ACC /* PublicNotificationName.h */; };
 		F6FCBFE55B35A833C54CE4C3B13867D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -275,7 +277,6 @@
 		B9F05412331667F7A6CE7A96854D8E2C /* NYThirdPartyLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NYThirdPartyLib.modulemap; sourceTree = "<group>"; };
 		C092F643AFB57CFBCA7205F6D5037204 /* Pods-NYThirdPartyLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYThirdPartyLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C76BA8AC8CAD6048BB0F5AE1E67F655D /* Pods_NYThirdPartyLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYThirdPartyLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC383ADC298960D94E2F88B76ED73A0E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = NYThirdPartyLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		DCC2427D83B8210DB1E6D4861557F3EA /* Pods-NYThirdPartyLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NYThirdPartyLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DEE2C8EB403C2073EA7DEFA924B90D68 /* Pods-NYThirdPartyLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NYThirdPartyLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB7C169F616A578EA9E07B75B7C26AC7 /* Pods-NYThirdPartyLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYThirdPartyLib_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -491,6 +492,9 @@
 		F45082BB2844C55900764ACC /* AESUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESUtil.m; sourceTree = "<group>"; };
 		F45082BC2844C55900764ACC /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
 		F45082BD2844C55900764ACC /* AESUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESUtil.h; sourceTree = "<group>"; };
+		F45083A52845BD1900764ACC /* PublicMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMacro.h; sourceTree = "<group>"; };
+		F45083A62845BD1900764ACC /* PublicEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicEnum.h; sourceTree = "<group>"; };
+		F45083A72845BD1900764ACC /* PublicNotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicNotificationName.h; sourceTree = "<group>"; };
 		FCF5E50573C08CF7B51E71904F043D2A /* Pods-NYThirdPartyLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYThirdPartyLib_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -559,9 +563,11 @@
 		5ACB909D8A9E1CBBB71C4A26C5A96435 /* NYThirdPartyLib */ = {
 			isa = PBXGroup;
 			children = (
+				F45083A62845BD1900764ACC /* PublicEnum.h */,
+				F45083A52845BD1900764ACC /* PublicMacro.h */,
+				F45083A72845BD1900764ACC /* PublicNotificationName.h */,
 				F45081E52844C55900764ACC /* ARC */,
 				F45081D72844C55900764ACC /* Json */,
-				DC383ADC298960D94E2F88B76ED73A0E /* ReplaceMe.m */,
 				4280838DC90C0E6651B17A3B8DEB9B79 /* Pod */,
 				5D75D6411375D78F5A6729936ED93C2D /* Support Files */,
 			);
@@ -1060,6 +1066,7 @@
 				F45083172844C55A00764ACC /* YYTextInput.h in Headers */,
 				F45083542844C55B00764ACC /* NSObject+YYAddForKVO.h in Headers */,
 				F45083892844C55B00764ACC /* FMDatabaseQueue.h in Headers */,
+				F45083A92845BD1900764ACC /* PublicEnum.h in Headers */,
 				F450834D2844C55B00764ACC /* NSTimer+YYAdd.h in Headers */,
 				F45082F62844C55A00764ACC /* UIImageView+YYWebImage.h in Headers */,
 				F450831B2844C55A00764ACC /* YYTextAttribute.h in Headers */,
@@ -1083,6 +1090,7 @@
 				F450830B2844C55A00764ACC /* YYTextKeyboardManager.h in Headers */,
 				F450831A2844C55A00764ACC /* YYTextView.h in Headers */,
 				F450838D2844C55C00764ACC /* NSData+AES.h in Headers */,
+				F45083A82845BD1900764ACC /* PublicMacro.h in Headers */,
 				F45083012844C55A00764ACC /* YYClassInfo.h in Headers */,
 				F45083822844C55B00764ACC /* YYSentinel.h in Headers */,
 				F45083052844C55A00764ACC /* YYKit.h in Headers */,
@@ -1132,6 +1140,7 @@
 				F45082E82844C55A00764ACC /* YYImage.h in Headers */,
 				D3BA7F9A8CC554BDB5B6CEF144A41A88 /* NYThirdPartyLib-umbrella.h in Headers */,
 				F45082CC2844C55A00764ACC /* RSAUtil.h in Headers */,
+				F45083AA2845BD1900764ACC /* PublicNotificationName.h in Headers */,
 				F450838A2844C55C00764ACC /* FMDatabaseAdditions.h in Headers */,
 				F45083642844C55B00764ACC /* NSThread+YYAdd.h in Headers */,
 				F45083222844C55A00764ACC /* YYTextRubyAnnotation.h in Headers */,
@@ -1392,7 +1401,6 @@
 				F450834C2844C55B00764ACC /* NSNumber+YYAdd.m in Sources */,
 				F45082CA2844C55900764ACC /* NSString+SBJSON.m in Sources */,
 				F450837A2844C55B00764ACC /* YYTransaction.m in Sources */,
-				06CEB8E1BA9B139A458BBB9718162514 /* ReplaceMe.m in Sources */,
 				F45083512844C55B00764ACC /* NSBundle+YYAdd.m in Sources */,
 				F45082E62844C55A00764ACC /* YYMemoryCache.m in Sources */,
 				F45082CB2844C55900764ACC /* RSAUtil.m in Sources */,
