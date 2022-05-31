@@ -226,9 +226,9 @@
 		F450838E2844C55C00764ACC /* AESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F45082BB2844C55900764ACC /* AESUtil.m */; };
 		F450838F2844C55C00764ACC /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = F45082BC2844C55900764ACC /* NSData+AES.m */; };
 		F45083902844C55C00764ACC /* AESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F45082BD2844C55900764ACC /* AESUtil.h */; };
-		F45085BB2846003D00764ACC /* PublicNotificationName.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085B82846003D00764ACC /* PublicNotificationName.h */; };
-		F45085BC2846003D00764ACC /* PublicMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085B92846003D00764ACC /* PublicMacro.h */; };
-		F45085BD2846003D00764ACC /* PublicEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085BA2846003D00764ACC /* PublicEnum.h */; };
+		F45085BB2846003D00764ACC /* PublicNotificationName.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085B82846003D00764ACC /* PublicNotificationName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45085BC2846003D00764ACC /* PublicMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085B92846003D00764ACC /* PublicMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45085BD2846003D00764ACC /* PublicEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085BA2846003D00764ACC /* PublicEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6FCBFE55B35A833C54CE4C3B13867D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
