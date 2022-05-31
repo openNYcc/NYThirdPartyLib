@@ -230,6 +230,58 @@
 		F45085BC2846003D00764ACC /* PublicMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085B92846003D00764ACC /* PublicMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F45085BD2846003D00764ACC /* PublicEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085BA2846003D00764ACC /* PublicEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F45085BF2846086800764ACC /* NYPubLibImport.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085BE2846086800764ACC /* NYPubLibImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45085F528460E1100764ACC /* NSData+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085C128460E1000764ACC /* NSData+AES.h */; };
+		F45085F628460E1100764ACC /* UINavigationBar+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085C228460E1100764ACC /* UINavigationBar+Background.m */; };
+		F45085F728460E1100764ACC /* UIImageView+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085C328460E1100764ACC /* UIImageView+Expand.m */; };
+		F45085F828460E1100764ACC /* UITextView+TextLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085C428460E1100764ACC /* UITextView+TextLimit.m */; };
+		F45085F928460E1100764ACC /* UIImage+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085C528460E1100764ACC /* UIImage+Expand.m */; };
+		F45085FA28460E1100764ACC /* UITextField+Addtion.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085C628460E1100764ACC /* UITextField+Addtion.h */; };
+		F45085FB28460E1100764ACC /* UIView+DividingLine.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085C728460E1100764ACC /* UIView+DividingLine.h */; };
+		F45085FC28460E1100764ACC /* NSData+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085C828460E1100764ACC /* NSData+Extension.m */; };
+		F45085FD28460E1100764ACC /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085C928460E1100764ACC /* NSArray+Extension.m */; };
+		F45085FE28460E1100764ACC /* UIButton+AsyncImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085CA28460E1100764ACC /* UIButton+AsyncImage.m */; };
+		F45085FF28460E1100764ACC /* UIView+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085CB28460E1100764ACC /* UIView+Addtion.m */; };
+		F450860028460E1100764ACC /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085CC28460E1100764ACC /* UIDevice-Hardware.m */; };
+		F450860128460E1100764ACC /* UITableViewCell+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085CD28460E1100764ACC /* UITableViewCell+Addition.h */; };
+		F450860228460E1100764ACC /* UIAlertView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085CE28460E1100764ACC /* UIAlertView+Extension.h */; };
+		F450860328460E1100764ACC /* UILabel+Label.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085CF28460E1100764ACC /* UILabel+Label.m */; };
+		F450860428460E1100764ACC /* UIBezierPath+curved.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085D028460E1100764ACC /* UIBezierPath+curved.h */; };
+		F450860528460E1100764ACC /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085D128460E1100764ACC /* CALayer+Anim.m */; };
+		F450860628460E1100764ACC /* UIColor+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085D228460E1100764ACC /* UIColor+Theme.m */; };
+		F450860728460E1100764ACC /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085D328460E1100764ACC /* UIView+Toast.h */; };
+		F450860828460E1100764ACC /* NSString+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085D428460E1100764ACC /* NSString+Addition.h */; };
+		F450860928460E1100764ACC /* UINavigationBar+Awesome.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085D528460E1100764ACC /* UINavigationBar+Awesome.h */; };
+		F450860A28460E1100764ACC /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085D628460E1100764ACC /* NSData+Base64.h */; };
+		F450860B28460E1100764ACC /* NSDate+WQCalendarLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085D728460E1100764ACC /* NSDate+WQCalendarLogic.h */; };
+		F450860C28460E1100764ACC /* NSMutableDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085D828460E1100764ACC /* NSMutableDictionary+Extension.m */; };
+		F450860D28460E1100764ACC /* NSData+CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085D928460E1100764ACC /* NSData+CommonCrypto.h */; };
+		F450860E28460E1100764ACC /* UIScrollView+UITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085DA28460E1100764ACC /* UIScrollView+UITouch.m */; };
+		F450860F28460E1100764ACC /* UIView+DividingLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085DB28460E1100764ACC /* UIView+DividingLine.m */; };
+		F450861028460E1100764ACC /* UITextField+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085DC28460E1100764ACC /* UITextField+Addtion.m */; };
+		F450861128460E1100764ACC /* UIImage+Expand.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085DD28460E1100764ACC /* UIImage+Expand.h */; };
+		F450861228460E1100764ACC /* UITextView+TextLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085DE28460E1100764ACC /* UITextView+TextLimit.h */; };
+		F450861328460E1100764ACC /* UINavigationBar+Background.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085DF28460E1100764ACC /* UINavigationBar+Background.h */; };
+		F450861428460E1100764ACC /* UIImageView+Expand.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085E028460E1100764ACC /* UIImageView+Expand.h */; };
+		F450861528460E1100764ACC /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085E128460E1100764ACC /* NSData+AES.m */; };
+		F450861628460E1100764ACC /* UITableViewCell+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085E228460E1100764ACC /* UITableViewCell+Addition.m */; };
+		F450861728460E1100764ACC /* UIDevice-Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085E328460E1100764ACC /* UIDevice-Hardware.h */; };
+		F450861828460E1100764ACC /* UIView+Addtion.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085E428460E1100764ACC /* UIView+Addtion.h */; };
+		F450861928460E1100764ACC /* NSArray+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085E528460E1100764ACC /* NSArray+Extension.h */; };
+		F450861A28460E1100764ACC /* UIButton+AsyncImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085E628460E1100764ACC /* UIButton+AsyncImage.h */; };
+		F450861B28460E1100764ACC /* NSData+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085E728460E1100764ACC /* NSData+Extension.h */; };
+		F450861C28460E1100764ACC /* CALayer+Anim.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085E828460E1100764ACC /* CALayer+Anim.h */; };
+		F450861D28460E1100764ACC /* UIColor+Theme.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085E928460E1100764ACC /* UIColor+Theme.h */; };
+		F450861E28460E1100764ACC /* UIBezierPath+curved.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085EA28460E1100764ACC /* UIBezierPath+curved.m */; };
+		F450861F28460E1100764ACC /* UILabel+Label.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085EB28460E1100764ACC /* UILabel+Label.h */; };
+		F450862028460E1100764ACC /* UIAlertView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085EC28460E1100764ACC /* UIAlertView+Extension.m */; };
+		F450862128460E1100764ACC /* UIScrollView+UITouch.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085ED28460E1100764ACC /* UIScrollView+UITouch.h */; };
+		F450862228460E1100764ACC /* NSMutableDictionary+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = F45085EE28460E1100764ACC /* NSMutableDictionary+Extension.h */; };
+		F450862328460E1100764ACC /* NSDate+WQCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085EF28460E1100764ACC /* NSDate+WQCalendarLogic.m */; };
+		F450862428460E1100764ACC /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085F028460E1100764ACC /* NSData+CommonCrypto.m */; };
+		F450862528460E1100764ACC /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085F128460E1100764ACC /* NSData+Base64.m */; };
+		F450862628460E1100764ACC /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085F228460E1100764ACC /* UINavigationBar+Awesome.m */; };
+		F450862728460E1100764ACC /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085F328460E1100764ACC /* NSString+Addition.m */; };
+		F450862828460E1100764ACC /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = F45085F428460E1100764ACC /* UIView+Toast.m */; };
 		F6FCBFE55B35A833C54CE4C3B13867D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -497,6 +549,58 @@
 		F45085B92846003D00764ACC /* PublicMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicMacro.h; path = NYThirdPartyLib/Classes/PublicMacro.h; sourceTree = "<group>"; };
 		F45085BA2846003D00764ACC /* PublicEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicEnum.h; path = NYThirdPartyLib/Classes/PublicEnum.h; sourceTree = "<group>"; };
 		F45085BE2846086800764ACC /* NYPubLibImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYPubLibImport.h; path = NYThirdPartyLib/Classes/NYPubLibImport.h; sourceTree = "<group>"; };
+		F45085C128460E1000764ACC /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		F45085C228460E1100764ACC /* UINavigationBar+Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Background.m"; sourceTree = "<group>"; };
+		F45085C328460E1100764ACC /* UIImageView+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Expand.m"; sourceTree = "<group>"; };
+		F45085C428460E1100764ACC /* UITextView+TextLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TextLimit.m"; sourceTree = "<group>"; };
+		F45085C528460E1100764ACC /* UIImage+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Expand.m"; sourceTree = "<group>"; };
+		F45085C628460E1100764ACC /* UITextField+Addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Addtion.h"; sourceTree = "<group>"; };
+		F45085C728460E1100764ACC /* UIView+DividingLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DividingLine.h"; sourceTree = "<group>"; };
+		F45085C828460E1100764ACC /* NSData+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Extension.m"; sourceTree = "<group>"; };
+		F45085C928460E1100764ACC /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		F45085CA28460E1100764ACC /* UIButton+AsyncImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AsyncImage.m"; sourceTree = "<group>"; };
+		F45085CB28460E1100764ACC /* UIView+Addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addtion.m"; sourceTree = "<group>"; };
+		F45085CC28460E1100764ACC /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
+		F45085CD28460E1100764ACC /* UITableViewCell+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Addition.h"; sourceTree = "<group>"; };
+		F45085CE28460E1100764ACC /* UIAlertView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Extension.h"; sourceTree = "<group>"; };
+		F45085CF28460E1100764ACC /* UILabel+Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Label.m"; sourceTree = "<group>"; };
+		F45085D028460E1100764ACC /* UIBezierPath+curved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+curved.h"; sourceTree = "<group>"; };
+		F45085D128460E1100764ACC /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
+		F45085D228460E1100764ACC /* UIColor+Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Theme.m"; sourceTree = "<group>"; };
+		F45085D328460E1100764ACC /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		F45085D428460E1100764ACC /* NSString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addition.h"; sourceTree = "<group>"; };
+		F45085D528460E1100764ACC /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		F45085D628460E1100764ACC /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		F45085D728460E1100764ACC /* NSDate+WQCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WQCalendarLogic.h"; sourceTree = "<group>"; };
+		F45085D828460E1100764ACC /* NSMutableDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Extension.m"; sourceTree = "<group>"; };
+		F45085D928460E1100764ACC /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		F45085DA28460E1100764ACC /* UIScrollView+UITouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UITouch.m"; sourceTree = "<group>"; };
+		F45085DB28460E1100764ACC /* UIView+DividingLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DividingLine.m"; sourceTree = "<group>"; };
+		F45085DC28460E1100764ACC /* UITextField+Addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Addtion.m"; sourceTree = "<group>"; };
+		F45085DD28460E1100764ACC /* UIImage+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Expand.h"; sourceTree = "<group>"; };
+		F45085DE28460E1100764ACC /* UITextView+TextLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TextLimit.h"; sourceTree = "<group>"; };
+		F45085DF28460E1100764ACC /* UINavigationBar+Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Background.h"; sourceTree = "<group>"; };
+		F45085E028460E1100764ACC /* UIImageView+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Expand.h"; sourceTree = "<group>"; };
+		F45085E128460E1100764ACC /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		F45085E228460E1100764ACC /* UITableViewCell+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Addition.m"; sourceTree = "<group>"; };
+		F45085E328460E1100764ACC /* UIDevice-Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice-Hardware.h"; sourceTree = "<group>"; };
+		F45085E428460E1100764ACC /* UIView+Addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addtion.h"; sourceTree = "<group>"; };
+		F45085E528460E1100764ACC /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		F45085E628460E1100764ACC /* UIButton+AsyncImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AsyncImage.h"; sourceTree = "<group>"; };
+		F45085E728460E1100764ACC /* NSData+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Extension.h"; sourceTree = "<group>"; };
+		F45085E828460E1100764ACC /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
+		F45085E928460E1100764ACC /* UIColor+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Theme.h"; sourceTree = "<group>"; };
+		F45085EA28460E1100764ACC /* UIBezierPath+curved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+curved.m"; sourceTree = "<group>"; };
+		F45085EB28460E1100764ACC /* UILabel+Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Label.h"; sourceTree = "<group>"; };
+		F45085EC28460E1100764ACC /* UIAlertView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Extension.m"; sourceTree = "<group>"; };
+		F45085ED28460E1100764ACC /* UIScrollView+UITouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UITouch.h"; sourceTree = "<group>"; };
+		F45085EE28460E1100764ACC /* NSMutableDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Extension.h"; sourceTree = "<group>"; };
+		F45085EF28460E1100764ACC /* NSDate+WQCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WQCalendarLogic.m"; sourceTree = "<group>"; };
+		F45085F028460E1100764ACC /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		F45085F128460E1100764ACC /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		F45085F228460E1100764ACC /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		F45085F328460E1100764ACC /* NSString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
+		F45085F428460E1100764ACC /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		FCF5E50573C08CF7B51E71904F043D2A /* Pods-NYThirdPartyLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYThirdPartyLib_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -667,6 +771,7 @@
 		F45081E52844C55900764ACC /* ARC */ = {
 			isa = PBXGroup;
 			children = (
+				F45085C028460E1000764ACC /* Category */,
 				F45081E62844C55900764ACC /* RSA */,
 				F45081E92844C55900764ACC /* NSString_3des */,
 				F45081EF2844C55900764ACC /* HIBaseToolKit */,
@@ -1010,6 +1115,65 @@
 			path = AES;
 			sourceTree = "<group>";
 		};
+		F45085C028460E1000764ACC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F45085C128460E1000764ACC /* NSData+AES.h */,
+				F45085C228460E1100764ACC /* UINavigationBar+Background.m */,
+				F45085C328460E1100764ACC /* UIImageView+Expand.m */,
+				F45085C428460E1100764ACC /* UITextView+TextLimit.m */,
+				F45085C528460E1100764ACC /* UIImage+Expand.m */,
+				F45085C628460E1100764ACC /* UITextField+Addtion.h */,
+				F45085C728460E1100764ACC /* UIView+DividingLine.h */,
+				F45085C828460E1100764ACC /* NSData+Extension.m */,
+				F45085C928460E1100764ACC /* NSArray+Extension.m */,
+				F45085CA28460E1100764ACC /* UIButton+AsyncImage.m */,
+				F45085CB28460E1100764ACC /* UIView+Addtion.m */,
+				F45085CC28460E1100764ACC /* UIDevice-Hardware.m */,
+				F45085CD28460E1100764ACC /* UITableViewCell+Addition.h */,
+				F45085CE28460E1100764ACC /* UIAlertView+Extension.h */,
+				F45085CF28460E1100764ACC /* UILabel+Label.m */,
+				F45085D028460E1100764ACC /* UIBezierPath+curved.h */,
+				F45085D128460E1100764ACC /* CALayer+Anim.m */,
+				F45085D228460E1100764ACC /* UIColor+Theme.m */,
+				F45085D328460E1100764ACC /* UIView+Toast.h */,
+				F45085D428460E1100764ACC /* NSString+Addition.h */,
+				F45085D528460E1100764ACC /* UINavigationBar+Awesome.h */,
+				F45085D628460E1100764ACC /* NSData+Base64.h */,
+				F45085D728460E1100764ACC /* NSDate+WQCalendarLogic.h */,
+				F45085D828460E1100764ACC /* NSMutableDictionary+Extension.m */,
+				F45085D928460E1100764ACC /* NSData+CommonCrypto.h */,
+				F45085DA28460E1100764ACC /* UIScrollView+UITouch.m */,
+				F45085DB28460E1100764ACC /* UIView+DividingLine.m */,
+				F45085DC28460E1100764ACC /* UITextField+Addtion.m */,
+				F45085DD28460E1100764ACC /* UIImage+Expand.h */,
+				F45085DE28460E1100764ACC /* UITextView+TextLimit.h */,
+				F45085DF28460E1100764ACC /* UINavigationBar+Background.h */,
+				F45085E028460E1100764ACC /* UIImageView+Expand.h */,
+				F45085E128460E1100764ACC /* NSData+AES.m */,
+				F45085E228460E1100764ACC /* UITableViewCell+Addition.m */,
+				F45085E328460E1100764ACC /* UIDevice-Hardware.h */,
+				F45085E428460E1100764ACC /* UIView+Addtion.h */,
+				F45085E528460E1100764ACC /* NSArray+Extension.h */,
+				F45085E628460E1100764ACC /* UIButton+AsyncImage.h */,
+				F45085E728460E1100764ACC /* NSData+Extension.h */,
+				F45085E828460E1100764ACC /* CALayer+Anim.h */,
+				F45085E928460E1100764ACC /* UIColor+Theme.h */,
+				F45085EA28460E1100764ACC /* UIBezierPath+curved.m */,
+				F45085EB28460E1100764ACC /* UILabel+Label.h */,
+				F45085EC28460E1100764ACC /* UIAlertView+Extension.m */,
+				F45085ED28460E1100764ACC /* UIScrollView+UITouch.h */,
+				F45085EE28460E1100764ACC /* NSMutableDictionary+Extension.h */,
+				F45085EF28460E1100764ACC /* NSDate+WQCalendarLogic.m */,
+				F45085F028460E1100764ACC /* NSData+CommonCrypto.m */,
+				F45085F128460E1100764ACC /* NSData+Base64.m */,
+				F45085F228460E1100764ACC /* UINavigationBar+Awesome.m */,
+				F45085F328460E1100764ACC /* NSString+Addition.m */,
+				F45085F428460E1100764ACC /* UIView+Toast.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		FDD3F7980E5E813C4F19DA9CE89DEFDD /* Pods-NYThirdPartyLib_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -1048,15 +1212,20 @@
 				F450836D2844C55B00764ACC /* YYKeychain.h in Headers */,
 				F450836E2844C55B00764ACC /* YYDispatchQueuePool.h in Headers */,
 				F45082C62844C55900764ACC /* JSON.h in Headers */,
+				F450861A28460E1100764ACC /* UIButton+AsyncImage.h in Headers */,
 				F45083362844C55B00764ACC /* UIImage+YYAdd.h in Headers */,
+				F450861C28460E1100764ACC /* CALayer+Anim.h in Headers */,
 				F45083502844C55B00764ACC /* NSNotificationCenter+YYAdd.h in Headers */,
+				F450862128460E1100764ACC /* UIScrollView+UITouch.h in Headers */,
 				F45083452844C55B00764ACC /* UIApplication+YYAdd.h in Headers */,
 				F45082C92844C55900764ACC /* JSONKit.h in Headers */,
 				F45082F82844C55A00764ACC /* MKAnnotationView+YYWebImage.h in Headers */,
 				F45082F92844C55A00764ACC /* _YYWebImageSetter.h in Headers */,
 				F45082F22844C55A00764ACC /* YYWebImageManager.h in Headers */,
 				F45083272844C55A00764ACC /* NSAttributedString+YYText.h in Headers */,
+				F450862228460E1100764ACC /* NSMutableDictionary+Extension.h in Headers */,
 				F45085BC2846003D00764ACC /* PublicMacro.h in Headers */,
+				F450861228460E1100764ACC /* UITextView+TextLimit.h in Headers */,
 				F45083792844C55B00764ACC /* YYThreadSafeDictionary.h in Headers */,
 				F450835A2844C55B00764ACC /* NSNumber+YYAdd.h in Headers */,
 				F450833F2844C55B00764ACC /* UIBezierPath+YYAdd.h in Headers */,
@@ -1073,18 +1242,27 @@
 				F45083892844C55B00764ACC /* FMDatabaseQueue.h in Headers */,
 				F450834D2844C55B00764ACC /* NSTimer+YYAdd.h in Headers */,
 				F45082F62844C55A00764ACC /* UIImageView+YYWebImage.h in Headers */,
+				F450861328460E1100764ACC /* UINavigationBar+Background.h in Headers */,
 				F450831B2844C55A00764ACC /* YYTextAttribute.h in Headers */,
+				F450861B28460E1100764ACC /* NSData+Extension.h in Headers */,
 				F45082D02844C55A00764ACC /* GTMDefines.h in Headers */,
+				F450860428460E1100764ACC /* UIBezierPath+curved.h in Headers */,
 				F45083692844C55B00764ACC /* CALayer+YYAdd.h in Headers */,
 				F45083482844C55B00764ACC /* UIBarButtonItem+YYAdd.h in Headers */,
 				F450832D2844C55B00764ACC /* YYLabel.h in Headers */,
 				F45082F72844C55A00764ACC /* CALayer+YYWebImage.h in Headers */,
+				F45085F528460E1100764ACC /* NSData+AES.h in Headers */,
 				F45083252844C55A00764ACC /* YYTextRunDelegate.h in Headers */,
 				F45082ED2844C55A00764ACC /* YYWebImageOperation.h in Headers */,
+				F450860828460E1100764ACC /* NSString+Addition.h in Headers */,
 				F45085BD2846003D00764ACC /* PublicEnum.h in Headers */,
+				F45085FB28460E1100764ACC /* UIView+DividingLine.h in Headers */,
 				F45082F52844C55A00764ACC /* UIButton+YYWebImage.h in Headers */,
 				F45082C02844C55900764ACC /* SBJsonWriter.h in Headers */,
+				F450861F28460E1100764ACC /* UILabel+Label.h in Headers */,
+				F450860228460E1100764ACC /* UIAlertView+Extension.h in Headers */,
 				F45083762844C55B00764ACC /* YYTimer.h in Headers */,
+				F450860B28460E1100764ACC /* NSDate+WQCalendarLogic.h in Headers */,
 				F45082D82844C55A00764ACC /* HIHUD.h in Headers */,
 				F450835B2844C55B00764ACC /* NSArray+YYAdd.h in Headers */,
 				F45082DA2844C55A00764ACC /* HDWeakObject.h in Headers */,
@@ -1093,15 +1271,19 @@
 				F45083742844C55B00764ACC /* YYReachability.h in Headers */,
 				F45083412844C55B00764ACC /* UIScrollView+YYAdd.h in Headers */,
 				F450830B2844C55A00764ACC /* YYTextKeyboardManager.h in Headers */,
+				F450860D28460E1100764ACC /* NSData+CommonCrypto.h in Headers */,
 				F450831A2844C55A00764ACC /* YYTextView.h in Headers */,
 				F450838D2844C55C00764ACC /* NSData+AES.h in Headers */,
+				F45085FA28460E1100764ACC /* UITextField+Addtion.h in Headers */,
 				F45083012844C55A00764ACC /* YYClassInfo.h in Headers */,
 				F45083822844C55B00764ACC /* YYSentinel.h in Headers */,
 				F45083052844C55A00764ACC /* YYKit.h in Headers */,
+				F450860A28460E1100764ACC /* NSData+Base64.h in Headers */,
 				F45083402844C55B00764ACC /* UIScreen+YYAdd.h in Headers */,
 				F45083572844C55B00764ACC /* NSDictionary+YYAdd.h in Headers */,
 				F45082E42844C55A00764ACC /* YYCache.h in Headers */,
 				F45083422844C55B00764ACC /* UITableView+YYAdd.h in Headers */,
+				F450860928460E1100764ACC /* UINavigationBar+Awesome.h in Headers */,
 				F450834F2844C55B00764ACC /* NSObject+YYAddForARC.h in Headers */,
 				F45083752844C55B00764ACC /* YYThreadSafeArray.h in Headers */,
 				F45083772844C55B00764ACC /* YYAsyncLayer.h in Headers */,
@@ -1110,15 +1292,19 @@
 				F45083152844C55A00764ACC /* YYTextContainerView.h in Headers */,
 				F45085BB2846003D00764ACC /* PublicNotificationName.h in Headers */,
 				F45082C82844C55900764ACC /* SBJsonParser.h in Headers */,
+				F450860128460E1100764ACC /* UITableViewCell+Addition.h in Headers */,
 				F45082D92844C55A00764ACC /* HIAlert.h in Headers */,
 				F45083782844C55B00764ACC /* YYWeakProxy.h in Headers */,
 				F450832E2844C55B00764ACC /* YYKitMacro.h in Headers */,
 				F45083002844C55A00764ACC /* YYSpriteSheetImage.h in Headers */,
 				F450836F2844C55B00764ACC /* YYTransaction.h in Headers */,
+				F450861828460E1100764ACC /* UIView+Addtion.h in Headers */,
 				F45082C32844C55900764ACC /* NSString+SBJSON.h in Headers */,
 				F45083472844C55B00764ACC /* UIGestureRecognizer+YYAdd.h in Headers */,
 				F450830E2844C55A00764ACC /* YYTextDebugOption.h in Headers */,
 				F45083322844C55B00764ACC /* UIControl+YYAdd.h in Headers */,
+				F450861428460E1100764ACC /* UIImageView+Expand.h in Headers */,
+				F450860728460E1100764ACC /* UIView+Toast.h in Headers */,
 				F45083232844C55A00764ACC /* YYTextArchiver.h in Headers */,
 				F45083072844C55A00764ACC /* YYTextSelectionView.h in Headers */,
 				F45083622844C55B00764ACC /* NSKeyedUnarchiver+YYAdd.h in Headers */,
@@ -1127,8 +1313,10 @@
 				F450832C2844C55B00764ACC /* UIPasteboard+YYText.h in Headers */,
 				F450834A2844C55B00764ACC /* UIView+YYAdd.h in Headers */,
 				F45082D62844C55A00764ACC /* HILabel.h in Headers */,
+				F450861D28460E1100764ACC /* UIColor+Theme.h in Headers */,
 				F45083042844C55A00764ACC /* NSObject+YYModel.h in Headers */,
 				F45083442844C55B00764ACC /* UIDevice+YYAdd.h in Headers */,
+				F450861728460E1100764ACC /* UIDevice-Hardware.h in Headers */,
 				F45082BF2844C55900764ACC /* SBJsonBase.h in Headers */,
 				F45082CF2844C55A00764ACC /* NSString+ThreeDES.h in Headers */,
 				F45083082844C55A00764ACC /* YYTextLine.h in Headers */,
@@ -1142,6 +1330,7 @@
 				F45082E22844C55A00764ACC /* YYMemoryCache.h in Headers */,
 				F45083282844C55A00764ACC /* YYTextParser.h in Headers */,
 				F45082DB2844C55A00764ACC /* HIToast.h in Headers */,
+				F450861928460E1100764ACC /* NSArray+Extension.h in Headers */,
 				F45082E82844C55A00764ACC /* YYImage.h in Headers */,
 				D3BA7F9A8CC554BDB5B6CEF144A41A88 /* NYThirdPartyLib-umbrella.h in Headers */,
 				F45082CC2844C55A00764ACC /* RSAUtil.h in Headers */,
@@ -1154,6 +1343,7 @@
 				F45083722844C55B00764ACC /* YYGestureRecognizer.h in Headers */,
 				F450836A2844C55B00764ACC /* YYCGUtilities.h in Headers */,
 				F450830A2844C55A00764ACC /* YYTextLayout.h in Headers */,
+				F450861128460E1100764ACC /* UIImage+Expand.h in Headers */,
 				F45083532844C55B00764ACC /* NSString+YYAdd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1312,6 +1502,7 @@
 				F450831F2844C55A00764ACC /* YYTextParser.m in Sources */,
 				F45082C72844C55900764ACC /* SBJsonWriter.m in Sources */,
 				F45083682844C55B00764ACC /* CALayer+YYAdd.m in Sources */,
+				F450862828460E1100764ACC /* UIView+Toast.m in Sources */,
 				F45083842844C55B00764ACC /* FMDatabaseQueue.m in Sources */,
 				F450838C2844C55C00764ACC /* FMResultSet.m in Sources */,
 				F450833B2844C55B00764ACC /* UIBarButtonItem+YYAdd.m in Sources */,
@@ -1324,11 +1515,13 @@
 				F45082F12844C55A00764ACC /* YYImageCoder.m in Sources */,
 				F450835D2844C55B00764ACC /* NSDate+YYAdd.m in Sources */,
 				F45082F32844C55A00764ACC /* YYFrameImage.m in Sources */,
+				F450862428460E1100764ACC /* NSData+CommonCrypto.m in Sources */,
 				F45082D52844C55A00764ACC /* HIAlert.m in Sources */,
 				F45083342844C55B00764ACC /* UIApplication+YYAdd.m in Sources */,
 				F45083212844C55A00764ACC /* UIPasteboard+YYText.m in Sources */,
 				F45083382844C55B00764ACC /* UIScreen+YYAdd.m in Sources */,
 				F450833C2844C55B00764ACC /* UIGestureRecognizer+YYAdd.m in Sources */,
+				F45085FE28460E1100764ACC /* UIButton+AsyncImage.m in Sources */,
 				F450837F2844C55B00764ACC /* YYTimer.m in Sources */,
 				F45083122844C55A00764ACC /* YYTextLine.m in Sources */,
 				F450830F2844C55A00764ACC /* YYTextInput.m in Sources */,
@@ -1340,16 +1533,23 @@
 				F450831D2844C55A00764ACC /* YYTextUtilities.m in Sources */,
 				F45082CD2844C55A00764ACC /* NSString+ThreeDES.m in Sources */,
 				F450838F2844C55C00764ACC /* NSData+AES.m in Sources */,
+				F45085FC28460E1100764ACC /* NSData+Extension.m in Sources */,
 				F45083162844C55A00764ACC /* YYTextKeyboardManager.m in Sources */,
 				F45083632844C55B00764ACC /* NSDictionary+YYAdd.m in Sources */,
 				F45082DD2844C55A00764ACC /* HILabel.m in Sources */,
+				F45085F828460E1100764ACC /* UITextView+TextLimit.m in Sources */,
+				F450862728460E1100764ACC /* NSString+Addition.m in Sources */,
 				F45082FF2844C55A00764ACC /* YYWebImageOperation.m in Sources */,
 				F450836B2844C55B00764ACC /* YYWeakProxy.m in Sources */,
 				F45082D12844C55A00764ACC /* GTMBase64.m in Sources */,
+				F450860E28460E1100764ACC /* UIScrollView+UITouch.m in Sources */,
 				F45082EF2844C55A00764ACC /* YYImage.m in Sources */,
+				F450861628460E1100764ACC /* UITableViewCell+Addition.m in Sources */,
 				F45083582844C55B00764ACC /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				323098D2999D7E0C9EF91C67BB5E1A79 /* NYThirdPartyLib-dummy.m in Sources */,
+				F450860528460E1100764ACC /* CALayer+Anim.m in Sources */,
 				F45082E72844C55A00764ACC /* YYImageCache.m in Sources */,
+				F45085F928460E1100764ACC /* UIImage+Expand.m in Sources */,
 				F45083522844C55B00764ACC /* NSObject+YYAdd.m in Sources */,
 				F450831E2844C55A00764ACC /* NSParagraphStyle+YYText.m in Sources */,
 				F45083552844C55B00764ACC /* NSData+YYAdd.m in Sources */,
@@ -1358,20 +1558,26 @@
 				F45083182844C55A00764ACC /* YYTextDebugOption.m in Sources */,
 				F45083612844C55B00764ACC /* NSNotificationCenter+YYAdd.m in Sources */,
 				F45083372844C55B00764ACC /* UIScrollView+YYAdd.m in Sources */,
+				F450860F28460E1100764ACC /* UIView+DividingLine.m in Sources */,
 				F45082FD2844C55A00764ACC /* CALayer+YYWebImage.m in Sources */,
 				F45083032844C55A00764ACC /* YYClassInfo.m in Sources */,
+				F450860628460E1100764ACC /* UIColor+Theme.m in Sources */,
 				F45083022844C55A00764ACC /* NSObject+YYModel.m in Sources */,
 				F450832F2844C55B00764ACC /* UITextField+YYAdd.m in Sources */,
 				F450835F2844C55B00764ACC /* NSString+YYAdd.m in Sources */,
 				F45083662844C55B00764ACC /* NSObject+YYAddForKVO.m in Sources */,
 				F450838E2844C55C00764ACC /* AESUtil.m in Sources */,
+				F450860328460E1100764ACC /* UILabel+Label.m in Sources */,
 				F45082FE2844C55A00764ACC /* YYAnimatedImageView.m in Sources */,
 				F45082C42844C55900764ACC /* SBJsonBase.m in Sources */,
 				F450837C2844C55B00764ACC /* YYKeychain.m in Sources */,
 				F45082EC2844C55A00764ACC /* YYSpriteSheetImage.m in Sources */,
+				F450861528460E1100764ACC /* NSData+AES.m in Sources */,
+				F450862528460E1100764ACC /* NSData+Base64.m in Sources */,
 				F45083102844C55A00764ACC /* YYTextLayout.m in Sources */,
 				F45083702844C55B00764ACC /* YYThreadSafeDictionary.m in Sources */,
 				F45082E92844C55A00764ACC /* YYWebImageManager.m in Sources */,
+				F450860028460E1100764ACC /* UIDevice-Hardware.m in Sources */,
 				F450835C2844C55B00764ACC /* NSObject+YYAddForARC.m in Sources */,
 				F45083732844C55B00764ACC /* YYSentinel.m in Sources */,
 				F450838B2844C55C00764ACC /* FMDatabasePool.m in Sources */,
@@ -1387,19 +1593,29 @@
 				F45083812844C55B00764ACC /* YYReachability.m in Sources */,
 				F450837B2844C55B00764ACC /* YYDispatchQueuePool.m in Sources */,
 				F45082F42844C55A00764ACC /* _YYWebImageSetter.m in Sources */,
+				F45085FD28460E1100764ACC /* NSArray+Extension.m in Sources */,
+				F45085F628460E1100764ACC /* UINavigationBar+Background.m in Sources */,
+				F45085F728460E1100764ACC /* UIImageView+Expand.m in Sources */,
+				F450861E28460E1100764ACC /* UIBezierPath+curved.m in Sources */,
 				F45083352844C55B00764ACC /* UITableView+YYAdd.m in Sources */,
 				F45083872844C55B00764ACC /* FMDatabaseAdditions.m in Sources */,
 				F450831C2844C55A00764ACC /* YYTextRunDelegate.m in Sources */,
 				F45082C12844C55900764ACC /* JSONKit.m in Sources */,
 				F45083462844C55B00764ACC /* UIControl+YYAdd.m in Sources */,
+				F450860C28460E1100764ACC /* NSMutableDictionary+Extension.m in Sources */,
 				F450832B2844C55A00764ACC /* YYTextRubyAnnotation.m in Sources */,
+				F450862328460E1100764ACC /* NSDate+WQCalendarLogic.m in Sources */,
 				F45083332844C55B00764ACC /* UIDevice+YYAdd.m in Sources */,
 				F45082DE2844C55A00764ACC /* HIHUD.m in Sources */,
+				F45085FF28460E1100764ACC /* UIView+Addtion.m in Sources */,
 				F45082C22844C55900764ACC /* SBJsonParser.m in Sources */,
 				F45083302844C55B00764ACC /* UIBezierPath+YYAdd.m in Sources */,
 				F45082E12844C55A00764ACC /* YYCache.m in Sources */,
+				F450862628460E1100764ACC /* UINavigationBar+Awesome.m in Sources */,
+				F450861028460E1100764ACC /* UITextField+Addtion.m in Sources */,
 				F45083262844C55A00764ACC /* YYTextAttribute.m in Sources */,
 				F45082FC2844C55A00764ACC /* MKAnnotationView+YYWebImage.m in Sources */,
+				F450862028460E1100764ACC /* UIAlertView+Extension.m in Sources */,
 				F45083312844C55B00764ACC /* UIColor+YYAdd.m in Sources */,
 				F450830D2844C55A00764ACC /* YYTextEffectWindow.m in Sources */,
 				F450834C2844C55B00764ACC /* NSNumber+YYAdd.m in Sources */,
